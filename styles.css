@@ -1,17 +1,9 @@
 
 /* Your CSS Code here. */
-
+/* Apply flexbox properties to the holder element */
 .holder {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  align-items: flex-start;
+  display: flex; /* Use flexbox display */
+  flex-wrap: wrap; /* Wrap items to next row if there is no space */
+  justify-content: space-between; /* Space out items evenly within a row */
 }
 
-.item {
-  flex-basis: calc(33.33% - 20px);
-  height: 100px;
-  margin-bottom: 20px;
-  background-color: #ccc;
-}
